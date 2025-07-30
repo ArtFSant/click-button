@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Clique no BOTÃO</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <script src="script.js"></script>
+        <h1>Clique no BOTÃO e se divirta!</h1>
+        <div id="main_dv">
+            <button id="main_bt" onclick="adicionar_ponto()">BOTÃO</button>
+        </div>
+        <p id="pontuacao">Pontuação: 0</p>
+        <div id="upgrades">
+            <div class="produtos">
+                <p>1 Clique p/segundo</p>
+                <p id="clique_segundo">Atual: 0</p>
+                <p id="preco_clq">Preço: 10</p>
+                <button onclick="comprar_clique()">Comprar</button>
+            </div>
+            <div class="produtos">
+                <p>1% Clique p/segundo</p>
+                <p id="porcentagem_clique">Atual: 0</p>
+                <p id="preco_pc">Preço: 50</p>
+                <button onclick="comprar_porcentagem()">Comprar</button>
+            </div>
+            <div class="produtos">
+                <p>Multi Clique p/segundo</p>
+                <p id="multiplicador_clique">Atual: 1</p>
+                <p id="preco_mt">Preço: 100</p>
+                <button onclick="comprar_multi()">Comprar</button>
+            </div>
+        </div>
+    </body>
+</html>

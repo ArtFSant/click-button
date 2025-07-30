@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(206, 203, 203);
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#main_dv{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#main_bt{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(14, 13, 13);
+    background-color: rgb(12, 161, 12);
+    color: rgb(242, 247, 243);
+    cursor: pointer;
+}
+
+#main_bt:hover{
+    background-color: rgb(18, 126, 18);
+}
+
+#main_bt:active{
+    background-color: rgb(30, 194, 30);
+}
+
+#pontuacao{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    text-align: center;
+}
+
+#upgrades{
+    margin: 100px 600px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(238, 235, 235);
+    border-radius: 20px;
+}
+
+.produtos{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(206, 203, 203);
+    text-align: center;
+}
+
+.produtos button{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(14, 13, 13);
+    background-color: rgb(255, 230, 9);
+    cursor: pointer;
+}
+
+.produtos button:hover{
+    background-color: rgb(211, 190, 0);
+}
+
+.produtos button:active{
+    background-color: rgb(255, 230, 0);
+}
